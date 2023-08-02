@@ -1,7 +1,7 @@
 #include <TFT_eSPI.h>
 #include "NotoSansBold15.h"
 #include <EEPROM.h>
-
+//
 TFT_eSPI tft = TFT_eSPI();
 TFT_eSprite sprite = TFT_eSprite(&tft);
 #define EEPROM_SIZE 48
